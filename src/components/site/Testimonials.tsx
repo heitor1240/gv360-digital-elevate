@@ -32,7 +32,7 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   const [index, setIndex] = useState(0);
-  const item = TESTIMONIALS[index];
+  const item = TESTIMONIALS[index] ?? TESTIMONIALS[0]!;
 
   return (
     <section className="border-t border-border">
