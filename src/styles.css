@@ -111,6 +111,8 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    overflow-x: clip;
+    max-width: 100vw;
   }
 
   body {
