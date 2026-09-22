@@ -121,7 +121,7 @@ export function Cases() {
     <section id="projetos" className="border-t border-border">
       <div className="mx-auto max-w-[1600px] px-6 py-28 md:px-10 lg:px-14 lg:py-40">
         <Reveal>
-          <SectionLabel index="04">Projetos</SectionLabel>
+          <SectionLabel index="05">Projetos</SectionLabel>
         </Reveal>
 
         <div className="mt-12 grid grid-cols-1 items-end gap-8 lg:grid-cols-12">

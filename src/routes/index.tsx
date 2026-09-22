@@ -79,8 +79,8 @@ function Home() {
         <ProblemSection />
         <Services />
         <Process />
-        <Cases />
         <Results />
+        <Cases />
         <About />
         <GV360Method />
         <Testimonials />

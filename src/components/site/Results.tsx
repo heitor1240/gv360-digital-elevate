@@ -5,8 +5,8 @@ import { Reveal, SectionLabel } from "./primitives";
 type Stat = { prefix?: string; value: number; suffix?: string; label: string };
 
 const STATS: Stat[] = [
-  { prefix: "+", value: 500, label: "negócios impactados" },
-  { value: 95, suffix: "%", label: "de clientes relatando resultados mensuráveis" },
+  { prefix: "+", value: 300, label: "negócios impactados" },
+  { value: 98, suffix: "%", label: "de clientes relatando resultados mensuráveis" },
   { value: 2022, label: "ano de fundação" },
 ];
 
@@ -49,7 +49,7 @@ export function Results() {
     <section className="border-t border-border bg-surface">
       <div className="mx-auto max-w-[1600px] px-6 py-24 md:px-10 lg:px-14 lg:py-32">
         <Reveal>
-          <SectionLabel index="05">Resultados</SectionLabel>
+          <SectionLabel index="04">Resultados</SectionLabel>
         </Reveal>
 
         <dl className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">

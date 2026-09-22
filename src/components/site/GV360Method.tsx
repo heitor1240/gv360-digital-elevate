@@ -42,7 +42,7 @@ export function GV360Method() {
                     cy="200"
                     r="160"
                     fill="none"
-                    stroke="oklch(1 0 0 / 0.14)"
+                    stroke="rgba(15, 23, 42, 0.12)"
                     strokeWidth="0.75"
                   />
                   <circle
@@ -50,7 +50,7 @@ export function GV360Method() {
                     cy="200"
                     r="160"
                     fill="none"
-                    stroke="oklch(0.88 0.22 128 / 0.65)"
+                    stroke="rgba(13, 94, 247, 0.6)"
                     strokeWidth="1"
                     strokeDasharray="34 970"
                   />
@@ -65,10 +65,10 @@ export function GV360Method() {
                           y1="200"
                           x2={x}
                           y2={y}
-                          stroke="oklch(1 0 0 / 0.07)"
+                          stroke="rgba(15, 23, 42, 0.08)"
                           strokeWidth="0.6"
                         />
-                        <circle cx={x} cy={y} r="3" fill="oklch(0.88 0.22 128)" />
+                        <circle cx={x} cy={y} r="3" fill="var(--brand-blue)" />
                       </g>
                     );
                   })}

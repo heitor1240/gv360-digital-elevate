@@ -6,7 +6,9 @@
 
 /*
  * GV360 — sistema de design.
- * Preto profundo, tipografia editorial, accent lime usado com extrema parcimônia.
+ * Paleta de marca: azul, vermelho, amarelo e verde com fundo claro e
+ * tipografia premium. O azul funciona como primária; o vermelho, amarelo e
+ * verde aparecem em pontos de destaque e microinterações.
  */
 
 @theme inline {
@@ -57,50 +59,67 @@
 :root {
   --radius: 0.25rem;
 
-  --background: oklch(0.13 0 0); /* #080808 */
-  --foreground: oklch(1 0 0);
-  --surface: oklch(0.16 0 0); /* #0D0D0D */
-  --elevated: oklch(0.19 0 0);
+  --brand-blue: #0d5ef7;
+  --brand-red: #e53935;
+  --brand-yellow: #f5c84c;
+  --brand-green: #2bb673;
 
-  --card: oklch(0.16 0 0);
-  --card-foreground: oklch(1 0 0);
-  --popover: oklch(0.16 0 0);
-  --popover-foreground: oklch(1 0 0);
+  --background: #f5f7fb;
+  --foreground: #101828;
+  --surface: #ffffff;
+  --elevated: #edf3ff;
 
-  --primary: oklch(0.88 0.22 128); /* lime accent */
-  --primary-foreground: oklch(0.13 0 0);
+  --card: #ffffff;
+  --card-foreground: #101828;
+  --popover: #ffffff;
+  --popover-foreground: #101828;
 
-  --secondary: oklch(0.19 0 0);
-  --secondary-foreground: oklch(1 0 0);
+  --primary: var(--brand-blue);
+  --primary-foreground: #ffffff;
 
-  --muted: oklch(0.19 0 0);
-  --muted-foreground: oklch(0.7 0 0); /* #A1A1A1 */
-  --subtle: oklch(0.51 0 0); /* #666666 */
+  --secondary: var(--brand-red);
+  --secondary-foreground: #ffffff;
 
-  --accent: oklch(0.88 0.22 128);
-  --accent-foreground: oklch(0.13 0 0);
+  --muted: #edf2f7;
+  --muted-foreground: #4b5563;
+  --subtle: #64748b;
 
-  --destructive: oklch(0.6 0.22 27);
-  --destructive-foreground: oklch(1 0 0);
+  --accent: var(--brand-yellow);
+  --accent-foreground: #111827;
 
-  --border: oklch(1 0 0 / 10%);
-  --border-strong: oklch(1 0 0 / 22%);
-  --input: oklch(1 0 0 / 14%);
-  --ring: oklch(0.88 0.22 128 / 60%);
+  --destructive: #d93d3d;
+  --destructive-foreground: #ffffff;
 
-  --sidebar: oklch(0.16 0 0);
-  --sidebar-foreground: oklch(1 0 0);
-  --sidebar-primary: oklch(0.88 0.22 128);
-  --sidebar-primary-foreground: oklch(0.13 0 0);
-  --sidebar-accent: oklch(0.19 0 0);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.88 0.22 128 / 60%);
+  --border: rgba(15, 23, 42, 0.1);
+  --border-strong: rgba(15, 23, 42, 0.22);
+  --input: #e8edf6;
+  --ring: rgba(13, 94, 247, 0.35);
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #101828;
+  --sidebar-primary: var(--brand-blue);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #edf3ff;
+  --sidebar-accent-foreground: #101828;
+  --sidebar-border: rgba(15, 23, 42, 0.08);
+  --sidebar-ring: rgba(13, 94, 247, 0.35);
 }
 
 .dark {
-  --background: oklch(0.13 0 0);
-  --foreground: oklch(1 0 0);
+  --background: #0b1220;
+  --foreground: #f8fafc;
+  --surface: #101827;
+  --elevated: #111c2d;
+  --card: #111827;
+  --card-foreground: #f8fafc;
+  --popover: #111827;
+  --popover-foreground: #f8fafc;
+  --muted: #1f2937;
+  --muted-foreground: #cbd5e1;
+  --subtle: #94a3b8;
+  --border: rgba(148, 163, 184, 0.18);
+  --border-strong: rgba(148, 163, 184, 0.28);
+  --input: rgba(148, 163, 184, 0.14);
 }
 
 @layer base {

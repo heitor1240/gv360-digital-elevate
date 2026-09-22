@@ -36,9 +36,10 @@ function HeroObject() {
         <svg viewBox="0 0 400 400" className="absolute inset-0 h-full w-full">
           <defs>
             <linearGradient id="gvLine" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="oklch(0.88 0.22 128)" stopOpacity="0.55" />
-              <stop offset="55%" stopColor="#ffffff" stopOpacity="0.16" />
-              <stop offset="100%" stopColor="#ffffff" stopOpacity="0.03" />
+              <stop offset="0%" stopColor="var(--brand-blue)" stopOpacity="0.72" />
+              <stop offset="42%" stopColor="var(--brand-red)" stopOpacity="0.52" />
+              <stop offset="70%" stopColor="var(--brand-yellow)" stopOpacity="0.42" />
+              <stop offset="100%" stopColor="#ffffff" stopOpacity="0.06" />
             </linearGradient>
           </defs>
           <g fill="none" stroke="url(#gvLine)" strokeWidth="0.6">
@@ -67,8 +68,8 @@ function HeroObject() {
             ))}
           </g>
           <g className="spin-slow" style={{ transformOrigin: "200px 200px" }}>
-            <circle cx="350" cy="200" r="2.6" fill="oklch(0.88 0.22 128)" />
-            <circle cx="50" cy="200" r="1.8" fill="#ffffff" fillOpacity="0.5" />
+            <circle cx="350" cy="200" r="2.6" fill="var(--brand-blue)" />
+            <circle cx="50" cy="200" r="1.8" fill="var(--brand-yellow)" fillOpacity="0.8" />
           </g>
         </svg>
       </motion.div>
@@ -90,7 +91,7 @@ export function Hero() {
       ref={ref}
       className="relative flex min-h-[100svh] items-end overflow-hidden pt-32 pb-12 lg:pb-16"
     >
-      <div className="pointer-events-none absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,oklch(0.88_0.22_128/0.07),transparent_70%)]" />
+      <div className="pointer-events-none absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(13,94,247,0.08),transparent_70%)]" />
 
       <motion.div
         style={{ y, opacity }}

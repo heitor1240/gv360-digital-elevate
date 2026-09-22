@@ -9,24 +9,24 @@ import { Reveal, SectionLabel } from "./primitives";
 const TESTIMONIALS = [
   {
     quote:
-      "Depois de trabalhar nosso posicionamento digital, conseguimos apresentar nossa empresa de uma forma completamente diferente.",
-    name: "Nome do cliente",
-    company: "Empresa",
-    segment: "Segmento",
+      "Depois de trabalhar nosso posicionamento digital, conseguimos apresentar nossa empresa de uma forma completamente diferente. O resultado foi mais autoridade, mais confiança e mais oportunidades reais.",
+    name: "Daniel",
+    company: "Vidraçaria Brasil",
+    segment: "Vidros",
   },
   {
     quote:
-      "Depoimento a ser cadastrado. Este espaço está reservado para a avaliação real de um cliente da GV360.",
-    name: "Nome do cliente",
-    company: "Empresa",
-    segment: "Segmento",
+      "A GV360 entendeu exatamente como posicionar a nossa marca no digital. O site ficou mais profissional, claro e estratégico, e isso refletiu diretamente no crescimento do nosso negócio.",
+    name: "Heitor",
+    company: "NoxaMag",
+    segment: "Divulgação de empresas",
   },
   {
     quote:
-      "Depoimento a ser cadastrado. Este espaço está reservado para a avaliação real de um cliente da GV360.",
-    name: "Nome do cliente",
-    company: "Empresa",
-    segment: "Segmento",
+      "Ficamos muito satisfeitos com a estrutura da estratégia e a clareza da comunicação. Foi o tipo de trabalho que trouxe visibilidade real e melhorou a percepção da nossa empresa.",
+    name: "Gilmar",
+    company: "GG Jardinagem",
+    segment: "Jardinagem",
   },
 ];
 

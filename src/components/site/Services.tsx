@@ -92,7 +92,7 @@ export function Services() {
                     className="grid grid-cols-1 gap-x-8 gap-y-3 lg:grid-cols-12 lg:items-baseline"
                   >
                     <motion.span
-                      animate={{ color: isActive ? "oklch(0.88 0.22 128)" : "#666666" }}
+                      animate={{ color: isActive ? "var(--brand-blue)" : "#64748b" }}
                       className="eyebrow lg:col-span-1"
                     >
                       {s.n}

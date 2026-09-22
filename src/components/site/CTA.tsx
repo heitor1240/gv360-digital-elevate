@@ -5,7 +5,7 @@ import { WHATSAPP_DIAGNOSTIC_URL, WHATSAPP_URL } from "@/lib/gv360";
 export function CTA() {
   return (
     <section id="contato" className="relative overflow-hidden border-t border-border">
-      <div className="pointer-events-none absolute -bottom-52 left-1/2 h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,oklch(0.88_0.22_128/0.08),transparent_70%)]" />
+      <div className="pointer-events-none absolute -bottom-52 left-1/2 h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(13,94,247,0.08),transparent_70%)]" />
 
       <div className="relative mx-auto max-w-[1600px] px-6 py-32 md:px-10 lg:px-14 lg:py-48">
         <h2 className="display text-[2.4rem] leading-[0.96] sm:text-[3.8rem] lg:text-[6.5rem]">

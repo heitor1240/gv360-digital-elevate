@@ -48,7 +48,7 @@ export function Cursor() {
           marginLeft: state === "media" ? -42 : state === "link" ? -22 : -7,
           marginTop: state === "media" ? -42 : state === "link" ? -22 : -7,
           backgroundColor:
-            state === "idle" ? "oklch(0.88 0.22 128)" : "oklch(0.88 0.22 128 / 0.08)",
+            state === "idle" ? "var(--brand-blue)" : "rgba(13, 94, 247, 0.08)",
         }}
         transition={{ type: "spring", stiffness: 320, damping: 26 }}
       >

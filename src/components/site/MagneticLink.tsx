@@ -38,7 +38,7 @@ export function MagneticLink({
     "group relative inline-flex items-center gap-3 text-sm tracking-tight transition-colors duration-300";
   const styles = {
     solid:
-      "rounded-full bg-primary px-7 py-3.5 font-medium text-primary-foreground hover:bg-white",
+      "rounded-full bg-primary px-7 py-3.5 font-medium text-primary-foreground hover:bg-[#0b4fe0]",
     ghost:
       "rounded-full border border-border-strong px-7 py-3.5 text-foreground hover:border-primary hover:text-primary",
     line: "text-muted-foreground hover:text-primary",
