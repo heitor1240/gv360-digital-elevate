@@ -15,6 +15,7 @@ import { GV360Method } from "@/components/site/GV360Method";
 import { Testimonials } from "@/components/site/Testimonials";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 const TITLE = "Agência GV360 | Marketing Digital, SEO e Presença Online";
 const DESCRIPTION =
@@ -60,6 +61,12 @@ export const Route = createFileRoute("/")({
             "Design e identidade visual",
             "Estratégia digital",
           ],
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "BRL",
+            description: "Diagnóstico de SEO e conversão gratuito, sem compromisso.",
+          },
         }),
       },
     ],
@@ -87,6 +94,7 @@ function Home() {
         <CTA />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 }
